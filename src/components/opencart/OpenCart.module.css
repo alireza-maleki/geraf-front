@@ -1,0 +1,36 @@
+  .bullet-container {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .bullet {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top: 35%;
+    transform: translate(-50%, -50%);
+    animation: moveBullets 4s linear infinite;
+  }
+  
+  .bullet span {
+    width: 8px;
+    height: 8px;
+    background-color: #aaa;
+    border-radius: 50%;
+  } 
+
+  @keyframes moveBullets {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100px);
+    }
+  }
+  
+  
+
+
+ 
+  

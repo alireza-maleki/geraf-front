@@ -1,0 +1,22 @@
+
+  .cart-container {
+    position: relative !important;
+  }
+  
+.flight-detail {
+    transform: rotateX(-200deg);
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.5s linear;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  
+  .flight-detail.open {
+    transform: rotateX(-360deg);
+    opacity: 1;
+    visibility: visible;
+    top: 40%;
+    left: 0;
+  }
