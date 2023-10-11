@@ -98,7 +98,7 @@ const Login = (props) => {
                 value={password}
                 autoComplete="off"
                 type="password"
-                className="w-[90%] mt-1 p-2 w-full rounded-sm border-l-4 border-blue-600 outline-none"
+                className="w-[90%] mt-1 p-2 rounded-sm border-l-4 border-blue-600 outline-none"
               />
               <RiLockPasswordFill className="mt-[4px] p-3 text-white bg-blue-600 w-[40px] h-[42px] rounded-sm" />
             </div>
